@@ -79,7 +79,7 @@ int main()
 
 	int curr[100], inter[100];
 	char word[100];
-	int index_curr/*ind*/, index_inter/*ind1*/, lit;
+	int index_curr, index_inter, lit;
 	while (f >> word)
 	{
 		if (inverse)_strrev(word);
