@@ -34,7 +34,7 @@ int main()
 
 	}
 
-	int* fin = new int[index_noduri]();
+	int* fin = new int[index_noduri+1]();
 
 	int nr_alf = strlen(alfabet);
 	int index_alfabet = 0;
